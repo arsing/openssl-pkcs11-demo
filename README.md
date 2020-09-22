@@ -1,5 +1,6 @@
 Proof-of-concept of using an HSM to generate and store key pairs, then using those key pairs to create a CA certificate, client certificate and server certificate for TLS.
 
+The PKCS#11 bindings and openssl engine from this PoC were incorporated into https://github.com/Azure/iot-identity-service for hardware key storage, so this repo has been archived.
 
 # Pre-requisites
 
